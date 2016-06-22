@@ -1,0 +1,92 @@
+{
+  "users": [
+    "569f80e77712b273209bff72",
+    "56e991a159fc1db109026577"
+  ],
+  "status": 1,
+  "serverOptions": {
+    "allowOrigin": [
+      "http://www.toroback.com",
+      "http://toroback.com",
+      "http://192.168.1.33:4200",
+      "http://localhost:4200"
+    ],
+    "a2sVersion": "0",
+    "git": null,
+    "port": 4572,
+    "secret_key": "3eiXQXo8n5VLhXHUzRjoP4Ioa",
+    "host": "http://192.168.1.45"
+  },
+  "gitOptions": {
+    "https": {
+      "accessToken": "ba3f19708936693b6aac27f16b7274fed72a32ef"
+    },
+    "git": "https://github.com/sergiogarfe/testhttps.git"
+  },
+  "storageOptions": {
+    "gcloud": {
+      "keyFile": {
+        "name": "gcloud/github_rsa"
+      }
+    }
+  },
+  "dbOptions": {
+    "pass": "a1VkLaZp",
+    "user": "575a6f1fc07757eb0d3b1fe9_testGitAcl",
+    "host": "mongodb://localhost/575a6f1fc07757eb0d3b1fe9_testGitAcl",
+    "name": "575a6f1fc07757eb0d3b1fe9_testGitAcl"
+  },
+  "socialOptions": {
+    "fb": {
+      "secretKey": null,
+      "clientId": null
+    }
+  },
+  "pushOptions": {
+    "ios": [
+      {
+        "_id": "development",
+        "name": "ios/c.p12",
+        "passphrase": null,
+        "cert": "ios/development",
+        "production": false
+      }
+    ],
+    "gcm": {
+      "url": "https://android.googleapis.com/gcm/send",
+      "apikey": "AIzaSyDCxb-flWV4s452y-Sw8YINnXGHYcG_pnQ"
+    }
+  },
+  "mqttOptions": {
+    "options": {
+      "protocolVersion": null,
+      "protocolId": null
+    },
+    "port": null,
+    "host": null
+  },
+  "redisOptions": {
+    "prefix": null,
+    "port": null,
+    "host": null
+  },
+  "_id": "575a6f1fc07757eb0d3b1fe9",
+  "app_key": "Q199hbFFZgdgXdg",
+  "creator": "569f80e77712b273209bff72",
+  "name": "testGitAcl",
+  "__v": 0,
+  "path": "/Users/sergio.garcia/Desktop/Desarrollo/apps/569f80e77712b273209bff72/575a6f1fc07757eb0d3b1fe9/",
+  "sessionOptions": {
+    "name": "575a6f1fc07757eb0d3b1fe9_testGitAcl"
+  },
+  "aclOptions": {
+    "enableAcl": true,
+    "noAcl": {
+      "users": {
+        "login": true,
+        "confirm": true,
+        "newDocument": true
+      }
+    }
+  }
+}
